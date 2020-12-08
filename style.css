@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+}
+nav{
+    width:100%;
+    background:rgb(46, 2, 78);
+    overflow: auto;
+}
+ul{
+    padding:2px;
+    margin:0 0 0 250px;
+    list-style:none;
+}
+li{
+    float:left;
+}
+.logo img{
+    position:absolute;
+    margin-top:5px;
+    margin-left:20%;
+    width:100px;
+    height: 40px;
+    position: 1.6em;
+}
+nav a{
+    width: 100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #f2f2f2;
+    text-align: center;
+    margin-left: 400%;
+    font-size: 80%;
+}
+a:hover{
+    background:red;
+    transition:0.5s;
+    text-transform: uppercase;
+}
+.mySlides{
+    width:100%;
+    height:100%;
+}
+h6{
+    color: red;
+}
+.text{
+    width:45%;
+    height:40%;
+    position: absolute;
+    margin-left: 5%;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1{
+    margin-left: 50%;
+    width:80%;
+    height:40%;
+    padding:10px;
+    color: white;
+    position: absolute;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1{
+    width:20%;
+    height:40%;
+    background-color:rgb(228, 13, 49);
+    border-radius: 0% 20%;
+    margin-left: 60%;
+}
+h2{
+    text-align: center;
+}
+.text1 p{
+    color:whitesmoke;
+}
+#services{
+    padding:22%;
+    padding-left: unset;
+}
+#services h4{
+    text-align: center;
+}
+#services img{
+    width:30%;
+    height:30%;
+    margin-left: 7%;
+}
